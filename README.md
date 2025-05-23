@@ -49,6 +49,9 @@ Topicos del Arduino (usa coordenadas)
 ```bash
 ros2 topic pub /position_command geometry_msgs/msg/Point "{x: -7.97, y: 8.29, z: 0.0}" -1
 ```
+# PCB
+Es la base sobre la que se montan y conectan eléctricamente los componentes electrónicos del sistema.
 
-![Image_Alt]([https://github.com/ChivaCable/Dise-o-mecatr-nico-Dise-o-de-un-sistema-hardware-in-the-loop-para-un-Robot-manipulador-serial-RR/blob/f272a01cd7a706f6146c9a469f38829558094698/Estructura/Piezas/ensamble%20final.png](https://github.com/ChivaCable/Dise-o-mecatr-nico-Dise-o-de-un-sistema-hardware-in-the-loop-para-un-Robot-manipulador-serial-RR/blob/6e93d510c3e7d2f23cf8b5df4ed42beae7b270c2/Archivos%20PCB/Archivos%20Visuales/PCB%20reprecentacion%20grafica.png))
+![PCB Representación gráfica](https://github.com/ChivaCable/Dise-o-mecatr-nico-Dise-o-de-un-sistema-hardware-in-the-loop-para-un-Robot-manipulador-serial-RR/blob/6e93d510c3e7d2f23cf8b5df4ed42beae7b270c2/Archivos%20PCB/Archivos%20Visuales/PCB%20reprecentacion%20grafica.png?raw=true)
+
 
