@@ -1,4 +1,0 @@
-Invoking command in '/home/chiva/uros_ws/build/micro_ros_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiva/uros_ws/build/micro_ros_msgs -- -j4 -l4
-Invoked command in '/home/chiva/uros_ws/build/micro_ros_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiva/uros_ws/build/micro_ros_msgs -- -j4 -l4
-Invoking command in '/home/chiva/uros_ws/build/micro_ros_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chiva/uros_ws/build/micro_ros_msgs
-Invoked command in '/home/chiva/uros_ws/build/micro_ros_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chiva/uros_ws/build/micro_ros_msgs

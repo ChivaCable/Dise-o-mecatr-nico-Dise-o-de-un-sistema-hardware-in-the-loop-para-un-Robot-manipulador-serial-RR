@@ -190,7 +190,7 @@
       name="gz::sim::systems::JointPositionController">
       <joint_name>joint1</joint_name>
       <topic>/topic_1</topic>  
-      <p_gain>1.7</p_gain>
+      <p_gain>1.5</p_gain>
       <i_gain>0.1</i_gain>
       <d_gain>0.001</d_gain>
       <i_max>1</i_max>
