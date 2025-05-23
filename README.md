@@ -31,3 +31,21 @@ El lanzador es el codigo que permite iniciar los multiples nodos que tiene el ro
 ```bash
 ros2 launch my_robot_planar gazebo_launch.py
 ```
+# Topicos
+Gracias a los tópicos en ROS 2, podemos enviar comandos para mover el robot de forma sencilla y eficiente. Esto permite que diferentes nodos se comuniquen y coordinen sus acciones en tiempo real.
+
+# Publicar topicos
+En una nueva terminal carga ROS 2 del sistema 
+```bash
+source /opt/ros/jazzy/setup.bash
+```
+Lo siguiente es publicar los topicos en la terminal
+Topicos de Gz (usa radianes para mover joint1 y joint2)
+```bash
+ros2 topic pub /topic_1 std_msgs/msg/Float64 "{data: 1.5}" --once
+ros2 topic pub /topic_2 std_msgs/msg/Float64 "{data: 1.5}" --once
+```
+Topicos del Arduino (usa coordenadas)
+```bash
+ros2 topic pub /position_command geometry_msgs/msg/Point "{x: -7.97, y: 8.29, z: 0.0}" -1
+```
