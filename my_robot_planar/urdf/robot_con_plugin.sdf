@@ -179,6 +179,11 @@
       <pose>0 0 0 0 0 0</pose>
     </frame>
 
+    <joint name="fixed_to_ground" type="fixed">
+      <parent>world</parent>
+      <child>base_link</child>
+    </joint>
+
 
     <plugin
       filename="gz-sim-joint-position-controller-system"
