@@ -1,0 +1,121 @@
+<robot name="my_robot">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.045568 -6.0363e-06 0.016416" rpy="0 0 0"/>
+      <mass value="0.12503"/>
+      <inertia ixx="3.9011e-05" ixy="-4.4034e-10" ixz="-9.4868e-09"
+               iyy="5.9546e-05" iyz="1.2812e-09" izz="8.1796e-05"/>
+    </inertial>
+    <visual name="base_link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/base_link.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="gray_blue">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision name="base_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/base_link.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <origin xyz="-0.043204 -0.00013674 0.030451" rpy="-1.5708 -1.5271 1.5708"/>
+    <parent link="base_link"/>
+    <child link="Motor1_Link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="100"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+  <link name="Motor1_Link">
+    <inertial>
+      <origin xyz="0.002191 0.064828 -0.085027" rpy="0 0 0"/>
+      <mass value="0.094024"/>
+      <inertia ixx="3.9845e-05" ixy="-3.4856e-07" ixz="6.7838e-10"
+               iyy="2.9913e-05" iyz="9.5762e-09" izz="2.2849e-05"/>
+    </inertial>
+    <visual name="Motor1_Link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/Motor1_Link.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="gray_blue">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision name="Motor1_Link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/Motor1_Link.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <origin xyz="0.0024029 0.070153 -0.047398" rpy="0 0 -0.55803"/>
+    <parent link="Motor1_Link"/>
+    <child link="Motor2_Link"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="100"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+  <link name="Motor2_Link">
+    <inertial>
+      <origin xyz="-0.0095616 0.016516 0.0024794" rpy="0 0 0"/>
+      <mass value="0.022468"/>
+      <inertia ixx="5.2162e-06" ixy="1.6765e-06" ixz="6.8852e-15"
+               iyy="3.2892e-06" iyz="1.1051e-11" izz="5.5835e-06"/>
+    </inertial>
+    <visual name="Motor2_Link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/Motor2_Link.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="gray_blue">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision name="Motor2_Link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/Motor2_Link.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_End" type="fixed">
+    <origin xyz="-0.041151 0.071211 0" rpy="1.651 0.11053 -1.8717"/>
+    <parent link="Motor2_Link"/>
+    <child link="End_effctor_Link"/>
+  </joint>
+
+  <link name="End_effctor_Link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.00026808"/>
+      <inertia ixx="1.7157e-09" ixy="0" ixz="0"
+               iyy="1.7157e-09" iyz="0" izz="1.7157e-09"/>
+    </inertial>
+    <visual name="End_effctor_Link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/End_effctor_Link.STL" scale="1 1 1"/>
+      </geometry>
+      <material name="gray_blue">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision name="End_effctor_Link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_planar/meshes/End_effctor_Link.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

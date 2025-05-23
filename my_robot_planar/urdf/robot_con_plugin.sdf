@@ -1,0 +1,220 @@
+<sdf version='1.11'>
+  <model name='my_robot'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.045567999999999997 -6.0363000000000001e-06 0.016416 0 0 0</pose>
+        <mass>0.12503</mass>
+        <inertia>
+          <ixx>3.9011000000000003e-05</ixx>
+          <ixy>-4.4034e-10</ixy>
+          <ixz>-9.4868e-09</ixz>
+          <iyy>5.9546000000000002e-05</iyy>
+          <iyz>1.2812000000000001e-09</iyz>
+          <izz>8.1796000000000001e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='joint1' type='revolute'>
+      <pose relative_to='base_link'>-0.043203999999999999 -0.00013674 0.030450999999999999 -1.5708000000000004 -1.5271000000000059 1.5708000000000002</pose>
+      <parent>base_link</parent>
+      <child>Motor1_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.10000000000000001</damping>
+          <friction>0.10000000000000001</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Motor1_Link'>
+      <pose relative_to='joint1'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0.0021909999999999998 0.064827999999999997 -0.085027000000000005 0 0 0</pose>
+        <mass>0.094023999999999996</mass>
+        <inertia>
+          <ixx>3.9845000000000002e-05</ixx>
+          <ixy>-3.4855999999999999e-07</ixy>
+          <ixz>6.7837999999999999e-10</ixz>
+          <iyy>2.9913e-05</iyy>
+          <iyz>9.5762000000000001e-09</iyz>
+          <izz>2.2849000000000001e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='Motor1_Link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/Motor1_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Motor1_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/Motor1_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='joint2' type='revolute'>
+      <pose relative_to='Motor1_Link'>0.0024028999999999999 0.070152999999999993 -0.047398000000000003 0 0 -0.55803000000000003</pose>
+      <parent>Motor1_Link</parent>
+      <child>Motor2_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>100</effort>
+          <velocity>100</velocity>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.10000000000000001</damping>
+          <friction>0.10000000000000001</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Motor2_Link'>
+      <pose relative_to='joint2'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-0.0099340690602777604 0.017160906052406569 0.0024501655166589849 0 0 0</pose>
+        <mass>0.022736079999999999</mass>
+        <inertia>
+          <ixx>6.012061101716937e-06</ixx>
+          <ixy>2.134222482919513e-06</ixy>
+          <ixz>-2.0749186352767712e-08</ixz>
+          <iyy>3.556904423631972e-06</iyy>
+          <iyz>3.5936935130456297e-08</iyz>
+          <izz>6.6420926853136944e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='Motor2_Link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/Motor2_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Motor2_Link_fixed_joint_lump__End_effctor_Link_collision_1'>
+        <pose>-0.041151 0.071210999999999997 0 1.651 0.11053000000000004 -1.8716999999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/End_effctor_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Motor2_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/Motor2_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='Motor2_Link_fixed_joint_lump__End_effctor_Link_visual_1'>
+        <pose>-0.041151 0.071210999999999997 0 1.651 0.11053000000000004 -1.8716999999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/chiva/ros2_ws/src/my_robot_planar/meshes/End_effctor_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='joint_End' attached_to='Motor2_Link'>
+      <pose>-0.041151 0.071210999999999997 0 1.651 0.11053000000000021 -1.8716999999999999</pose>
+    </frame>
+    <frame name='End_effctor_Link' attached_to='joint_End'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+
+
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>joint1</joint_name>
+      <topic>/topic_1</topic>  
+      <p_gain>1.7</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.001</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>joint2</joint_name>
+      <topic>/topic_2</topic>
+      <p_gain>1.4</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.1</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>1000</cmd_max>
+      <cmd_min>-1000</cmd_min>
+    </plugin>
+
+    
+    <plugin
+        filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        <topic>/joint_states</topic>
+        <joint_name>joint1</joint_name>
+        <joint_name>joint2</joint_name>
+    </plugin>
+  </model>
+</sdf>
