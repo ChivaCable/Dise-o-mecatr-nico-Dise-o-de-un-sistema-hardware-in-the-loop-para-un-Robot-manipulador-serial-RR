@@ -16,6 +16,12 @@ En este espacio de trabajo usamos ROS 2 y es una estructura de carpetas donde se
 ```bash
 cd ros-ws  
 colcon build
+```
 
+# Construir el espacio de trabajo
+Es necesario cargar ROS2 al sistema y cargar el espacio de trabajo personalizado cada que se haga un cambio en el espacio
 
-# Configurar tu espacio de trabajo
+```bash
+source install/setup.bash
+source /opt/ros/jazzy/setup.bash
+```
