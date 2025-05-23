@@ -40,6 +40,7 @@ En una nueva terminal carga ROS 2 del sistema
 source /opt/ros/jazzy/setup.bash
 ```
 Lo siguiente es publicar los topicos en la terminal
+
 Topicos de Gz (usa radianes para mover joint1 y joint2)
 ```bash
 ros2 topic pub /topic_1 std_msgs/msg/Float64 "{data: 1.5}" --once
