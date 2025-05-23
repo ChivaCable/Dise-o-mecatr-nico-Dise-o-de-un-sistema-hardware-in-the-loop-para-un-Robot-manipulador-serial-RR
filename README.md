@@ -18,7 +18,7 @@ cd ros-ws
 colcon build
 ```
 
-# Construir el espacio de trabajo
+# Configurar el espacio de trabajo
 Es necesario cargar ROS2 al sistema y cargar el espacio de trabajo personalizado cada que se realicen cambios.
 
 ```bash
