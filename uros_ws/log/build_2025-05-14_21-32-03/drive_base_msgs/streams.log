@@ -1,0 +1,216 @@
+[0.017s] Invoking command in '/home/chiva/uros_ws/build/drive_base_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiva/uros_ws/build/drive_base_msgs -- -j4 -l4
+[0.138s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[0.155s] [  1%] Built target ament_cmake_python_copy_drive_base_msgs
+[0.229s] [  3%] Built target drive_base_msgs__cpp
+[0.248s] [ 25%] Built target drive_base_msgs__rosidl_generator_c
+[0.350s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[0.356s] [ 43%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[0.360s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[0.439s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[0.445s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_c
+[0.460s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[0.499s] [ 81%] Built target drive_base_msgs
+[0.540s] [ 82%] Built target drive_base_msgs__py
+[0.581s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[0.664s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[0.682s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[0.683s] running egg_info
+[0.690s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[0.717s] writing drive_base_msgs.egg-info/PKG-INFO
+[0.717s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[0.717s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[0.772s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[0.773s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[0.825s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[0.842s] Invoked command in '/home/chiva/uros_ws/build/drive_base_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chiva/uros_ws/build/drive_base_msgs -- -j4 -l4
+[0.844s] Invoking command in '/home/chiva/uros_ws/build/drive_base_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chiva/uros_ws/build/drive_base_msgs
+[0.857s] -- Install configuration: ""
+[0.857s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[0.857s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[0.858s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[0.858s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[0.858s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[0.858s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.859s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.859s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[0.859s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.859s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[0.860s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.860s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[0.860s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[0.860s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__description.c
+[0.860s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.c
+[0.861s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.c
+[0.861s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.c
+[0.861s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__description.c
+[0.861s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[0.861s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[0.861s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[0.862s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__description.c
+[0.862s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[0.862s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.c
+[0.862s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[0.863s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[0.863s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__description.c
+[0.863s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[0.863s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[0.863s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[0.864s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[0.864s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[0.864s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[0.864s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[0.865s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[0.865s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[0.865s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[0.865s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[0.865s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[0.866s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[0.866s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.866s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.866s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[0.868s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.868s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.868s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.868s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[0.868s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[0.869s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[0.870s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[0.870s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[0.870s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[0.870s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[0.871s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[0.871s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[0.871s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[0.871s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[0.872s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[0.872s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[0.872s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[0.872s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[0.873s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[0.873s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.873s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.873s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.874s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[0.874s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/dds_fastrtps
+[0.874s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.874s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.874s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.875s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.875s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.875s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.875s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.876s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.876s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[0.876s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[0.876s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[0.876s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[0.877s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[0.877s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[0.877s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[0.877s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[0.877s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.877s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[0.878s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[0.879s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[0.879s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[0.879s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[0.879s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[0.880s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[0.880s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[0.880s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[0.880s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[0.883s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[0.883s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[0.884s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info
+[0.884s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.884s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.884s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.884s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.887s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs
+[0.887s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[0.887s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.887s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[0.888s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg
+[0.888s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c
+[0.889s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py
+[0.890s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c
+[0.891s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c
+[0.891s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py
+[0.891s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py
+[0.891s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py
+[0.891s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py
+[0.892s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[0.892s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py
+[0.892s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.892s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.892s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[0.940s] Listing '/home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...
+[0.940s] Listing '/home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...
+[0.949s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.949s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[0.950s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[0.951s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[0.952s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[0.952s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[0.952s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[0.952s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[0.952s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[0.953s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[0.953s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[0.953s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[0.953s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[0.953s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[0.954s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[0.955s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[0.955s] -- Installing: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[0.955s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[0.955s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[0.955s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.956s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.956s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.956s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[0.956s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.957s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.958s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.958s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[0.958s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.958s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[0.958s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.959s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[0.959s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.959s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.959s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[0.960s] -- Up-to-date: /home/chiva/uros_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[0.962s] Invoked command in '/home/chiva/uros_ws/build/drive_base_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chiva/uros_ws/build/drive_base_msgs
