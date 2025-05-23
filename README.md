@@ -25,3 +25,9 @@ Es necesario cargar ROS2 al sistema y cargar el espacio de trabajo personalizado
 source install/setup.bash
 source /opt/ros/jazzy/setup.bash
 ```
+# Ejecutar lanzador
+El lanzador es el codigo que permite iniciar los multiples nodos que tiene el robot y las configuraciones del mismo de manera simultanea, de manera que con solo un comando se ejecuta el sistema
+
+```bash
+ros2 launch my_robot_planar gazebo_launch.py
+```
