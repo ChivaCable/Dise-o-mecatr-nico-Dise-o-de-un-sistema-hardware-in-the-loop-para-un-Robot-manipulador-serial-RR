@@ -16,3 +16,6 @@ En este espacio de trabajo usamos ROS 2 y es una estructura de carpetas donde se
 ```bash
 cd ros-ws  
 colcon build
+
+
+# Configurar tu espacio de trabajo
