@@ -6,3 +6,8 @@
 
 https://github.com/user-attachments/assets/f8c596f3-bc3e-4921-8bc3-12ca6fd54891
 
+# Espacio de trabajo
+
+En este espacio de trabajo usamos ROS 2 y es una estructura de carpetas donde se organizan y construyen los paquetes del sistema robótico. Para trabajar en el se debe seguir estos pasos.
+
+# Construir el espacio de trabajo
