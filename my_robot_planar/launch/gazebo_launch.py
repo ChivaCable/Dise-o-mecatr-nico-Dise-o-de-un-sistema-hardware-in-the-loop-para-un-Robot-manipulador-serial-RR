@@ -19,7 +19,7 @@ def generate_launch_description():
     with open(urdf_path, 'r') as infp:
         robot_desc = infp.read()
 
-    # Lanzar Gazebo con el mundo
+    
     world_cmd = ExecuteProcess(
         cmd=['gz', 'sim', '-v', '4', '-r', sdf_world_path],
         output='screen'
@@ -75,14 +75,14 @@ def generate_launch_description():
         name='real_to_sim_bridge',
         output='screen'
     )
-    '''
+    
     sim_to_real_node = Node(
         package='my_robot_planar',
         executable='sim_to_real',
         name='sim_to_real_bridge',
         output='screen'
     )
-    '''
+    
 
     # Configuración del LaunchDescription con eventos
     launch_description = LaunchDescription([
@@ -106,8 +106,8 @@ def generate_launch_description():
             )
         ),
         rviz_node,
-        real_to_sim_node,  # ¡Aquí se lanza tu puente!
-        #sim_to_real_node
+        real_to_sim_node,  
+        sim_to_real_node
     ])
 
     return launch_description
